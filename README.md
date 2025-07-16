@@ -6,15 +6,15 @@ utilizing cloud deployment for authentication, role-based access control, and se
 ⸻
 
 Features
-	•	Authentication & Authorization
+	* Authentication & Authorization
 Uses Auth0 with JWT Bearer tokens for secure access. Enforces strict role-based access for admin, instructor, and student users.
-	•	🗃User Management
+	* User Management
 Supports login, viewing user data (with role-based permissions), and avatar upload/delete via Google Cloud Storage.
-	•	Course Management
+	* Course Management
 Admins can create, edit, and delete courses. Instructors and admins can manage enrollment. Pagination and ordering supported.
-	•	Google Cloud Integration
+	* Google Cloud Integration
 Deployed on Google App Engine. Stores avatar images securely in Google Cloud Storage and uses Google Datastore for all structured data.
-	•	Testable, RESTful Design
+	* Testable, RESTful Design
 Implements 13 REST endpoints following standard HTTP methods and status codes.
 
 ⸻
