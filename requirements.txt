@@ -1,0 +1,7 @@
+Flask
+google-cloud-datastore
+google-cloud-storage
+requests
+python-jose
+six
+python-dotenv
